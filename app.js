@@ -60,7 +60,6 @@
 	function saveCurrentPosition() {
 		if(savedLocationMarker != null) {
 			savedLocationMarker.setMap(null);
-			//localStorage.removeItem("currentPosition");
 		}
 		savedLocationMarker = new google.maps.Marker({
 	        position: currentPosition,
